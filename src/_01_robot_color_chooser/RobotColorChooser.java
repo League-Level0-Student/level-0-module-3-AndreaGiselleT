@@ -4,12 +4,15 @@
 package _01_robot_color_chooser;
 
 import javax.swing.JOptionPane;
+
+import java.awt.AWTException;
 import java.awt.Color;
+import java.awt.Robot;
 
 public class RobotColorChooser {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws AWTException {
 		//1. Create a new Robot
-		Robot weebee = new Robot();
+		Robot WeeBee = new Robot();
 		//3. Ask the user what color they would like the robot to draw
 		
 		//5. Use an if/else statement to set the pen color that the user requested
@@ -21,7 +24,7 @@ public class RobotColorChooser {
 		//4. Set the pen width to 10
 		
 	    //2. Make the robot draw a shape (this will take more than one line of code)
-		
+			WeeBee draw
 
 	}
 }
