@@ -5,9 +5,11 @@ package _01_robot_color_chooser;
 
 import javax.swing.JOptionPane;
 
+import org.jointheleague.graphical.robot.Robot;
+
 import java.awt.AWTException;
 import java.awt.Color;
-import java.awt.Robot;
+
 
 public class RobotColorChooser {
 	public static void main(String[] args) throws AWTException {
@@ -24,7 +26,48 @@ public class RobotColorChooser {
 		//4. Set the pen width to 10
 		
 	    //2. Make the robot draw a shape (this will take more than one line of code)
-			WeeBee draw
-
+		    
+			WeeBee.penDown();
+			WeeBee.move(90);
+			WeeBee.turn(90);
+			WeeBee.penDown();
+			WeeBee.move(50);
+			WeeBee.turn(90);
+			WeeBee.penDown();
+			WeeBee.move(90);
+			WeeBee.turn(90);
+			WeeBee.penDown();
+			WeeBee.move(90);
+			WeeBee.turn(90);
+			WeeBee.penDown();
+			WeeBee.move(140);
+			WeeBee.turn(90);
+			WeeBee.penDown();
+			WeeBee.move(180);
+			WeeBee.turn(90);
+			WeeBee.move(50);
+			WeeBee.turn(90);
+			WeeBee.penDown();
+			WeeBee.move(90);
+			WeeBee.turn(90);
+			WeeBee.penDown();
+			WeeBee.move(130);
+			WeeBee.turn(90);
+			WeeBee.penDown();
+			WeeBee.move(160);
+			WeeBee.turn(90);
+			WeeBee.penDown();
+			WeeBee.move(232);
+			WeeBee.turn(90);
+			WeeBee.penDown();
+			WeeBee.move(50);
+			WeeBee.turn(90);
+			WeeBee.penDown();
+			WeeBee.move(90);
+			WeeBee.turn(90);
+			WeeBee.penDown();
+			WeeBee.move(130);
+		
+			
 	}
 }
