@@ -26,7 +26,7 @@ public class RobotColorChooser {
 		//4. Set the pen width to 10
 		
 	    //2. Make the robot draw a shape (this will take more than one line of code)
-		    
+		    WeeBee.setSpeed(100);
 			WeeBee.penDown();
 			WeeBee.move(90);
 			WeeBee.turn(90);
@@ -54,10 +54,16 @@ public class RobotColorChooser {
 			WeeBee.move(130);
 			WeeBee.turn(90);
 			WeeBee.penDown();
-			WeeBee.move(160);
+			WeeBee.move(90);
 			WeeBee.turn(90);
 			WeeBee.penDown();
-			WeeBee.move(232);
+			WeeBee.move(80);
+			WeeBee.turn(270);
+			WeeBee.penDown();
+			WeeBee.move(90);
+			WeeBee.turn(90);
+			WeeBee.penDown();
+			WeeBee.move(140);
 			WeeBee.turn(90);
 			WeeBee.penDown();
 			WeeBee.move(50);
@@ -66,7 +72,7 @@ public class RobotColorChooser {
 			WeeBee.move(90);
 			WeeBee.turn(90);
 			WeeBee.penDown();
-			WeeBee.move(130);
+			
 		
 			
 	}
