@@ -16,6 +16,7 @@ public class HighLowGame {
 		int random = new Random().nextInt(5);
 		// 2. Print out the random variable above
 		// 11. Repeat steps 1 to 10 ten times
+		System.out.println(random);
 		for (int i = 0; i < 10; i++) {
 
 			// 1. Ask the user for a guess using a pop-up window, and save their response 
