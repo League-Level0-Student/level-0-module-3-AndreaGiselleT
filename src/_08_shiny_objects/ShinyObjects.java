@@ -15,7 +15,7 @@ public class ShinyObjects {
 	public static void main(String[] args) {
 		// 2. Ask the user how many shiny objects they want
 			String ShinyObjects=JOptionPane.showInputDialog(null, "How many Shiny Objects do you want?");
-		int Objects()
+			
 			// 3. Play the sound that many times
 			
 		// 1. Call the method below
